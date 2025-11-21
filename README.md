@@ -23,27 +23,38 @@ Technical and stakeholder reporting
 
 This repository demonstrates practical SOC analyst skills using industry-standard tools and methods.
 
-📁 Week_2/
-├── 📂 1_Alert_Management/
-│ └── 📄 Alert classification & prioritization
-├── 📂 2_Response_Documentation/
-│ └── 📄 IR templates, checklists, post-mortem docs
-├── 📂 3_Alert_Triage_Practice/
-│ └── 📄 Triage exercises + threat intel validation
-├── 📂 4_Evidence_Preservation/
-│ ├── 📁 REAL_EVIDENCE/
-│ │ ├── 📝 netstat_20251121.txt
-│ │ ├── 📝 network_connections.csv
-│ │ ├── 📝 process_list.csv
-│ │ ├── 📝 systeminfo.txt
-│ │ └── 🔐 *.sha256
-│ ├── 📄 chain_of_custody.md
-│ └── 📄 velociraptor_setup.md
-└── 📂 5_Capstone_Project/
-├── 📄 incident_report.md
-├── 📄 stakeholder_briefing.txt
-├── 📄 alert_detection.md
-└── 🖼️ screenshots/
+## 📁 Repository Structure (Mermaid Diagram)
+
+
+📁 Week_2 
+
+    A --> B["📂 1_Alert_Management"]:::folder
+    B --> B1["📄 Alert classification & prioritization"]:::file
+
+    A --> C["📂 2_Response_Documentation"]:::folder
+    C --> C1["📄 IR templates, checklists,<br/>post-mortem docs"]:::file
+
+    A --> D["📂 3_Alert_Triage_Practice"]:::folder
+    D --> D1["📄 Triage exercises +<br/>threat intel validation"]:::file
+
+    A --> E["📂 4_Evidence_Preservation"]:::folder
+
+    E --> EA["🧪 REAL_EVIDENCE"]:::evidence
+    EA --> EA1["📝 netstat_20251121.txt"]:::file
+    EA --> EA2["📝 network_connections.csv"]:::file
+    EA --> EA3["📝 process_list.csv"]:::file
+    EA --> EA4["📝 systeminfo.txt"]:::file
+    EA --> EA5["🔐 *.sha256 files"]:::file
+
+    E --> EB["📄 chain_of_custody.md"]:::file
+    E --> EC["📄 velociraptor_setup.md"]:::file
+
+    A --> F["📂 5_Capstone_Project"]:::folder
+    F --> F1["📝 incident_report.md"]:::file
+    F --> F2["📄 stakeholder_briefing.txt"]:::file
+    F --> F3["📊 alert_detection.md"]:::file
+    F --> F4["🖼️ screenshots/"]:::folder
+
 🛠 Tools Used
 Tool	Purpose
 Velociraptor	Forensic evidence collection
