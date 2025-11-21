@@ -1,203 +1,140 @@
-CYART SOC Team - Week 2
-Project Overview
-This repository contains Week 2 coursework for SOC (Security Operations Center) training.
-Focus: Alert management, incident response, and evidence preservation.
+CYART SOC Team – Week 2: Alert Management & Evidence Preservation
 
-Repository Structure
-Week_2 Folder Contains:
-3_Alert_Triage_Practice/
+Week 2 focuses on real-world SOC operations including alert triage, incident response, and forensic evidence preservation.
+All data in this repository is collected from live systems, not templates or simulations.
 
-alert_triage_simulation.md
-threat_intel_validation.txt
-README.md
+📌 Learning Outcomes
 
-4_Evidence_Preservation/
+By the end of Week 2, the analyst completes:
 
-chain_of_custody.md
-velociraptor_setup.md
-README.md
-REAL_EVIDENCE/
+Alert triage using SIEM (Wazuh)
 
-netstat_20251121.txt
-network_connections.csv
-process_list.csv
-systeminfo.txt
-*.sha256 (hash files)
+IOC validation using threat intelligence
 
-5_Capstone_Project/
+Forensic evidence collection with Velociraptor
 
-incident_report.md
-stakeholder_briefing.txt
-alert_detection.md
-response_actions.md
-forensic_findings.md
-screenshots/
-README.md
-     
+Hashing & integrity verification (SHA256)
 
-Week 2 Tasks
-Task 3: Alert Triage Practice
-
-Simulate triage with sample alerts
-Validate IOCs with threat intelligence
-Cross-reference with AlienVault OTX and VirusTotal
-
-Tools: Wazuh, VirusTotal, AlienVault OTX
-Output: Triage analysis documentation
-
-Task 4: Evidence Preservation
-
-Deploy Velociraptor on Windows system
-Collect volatile data (netstat, processes, system info)
-Calculate SHA256 hashes for all evidence
-Maintain chain of custody documentation
-
-Tools: Velociraptor, PowerShell, SHA256
-Evidence Files:
-
-netstat_20251121.txt
-network_connections.csv
-process_list.csv
-systeminfo.txt
-
-Collection Date: 2025-11-21
-
-Task 5: Capstone Project
-
-Simulate attack using Metasploit
-Detect attack with Wazuh
-Triage and classify alerts
-Respond to incident (isolate, block)
-Document findings in incident report
-Create stakeholder briefing
-
-Tools: Metasploit, Wazuh, CrowdSec
-Output:
-
-Incident report (SANS template)
-Stakeholder briefing (100 words)
-Attack timeline
-Response documentation
-
-
-Evidence Collection Summary
-System: Windows Host
-Collection Method: PowerShell + Velociraptor
-Date: 2025-11-21
-Evidence Files Collected:
-
-netstat_20251121.txt - Network connections snapshot
-network_connections.csv - Network connections (structured)
-process_list.csv - Running processes and memory
-systeminfo.txt - System configuration
-
-Hash Verification:
-
-All files hashed with SHA256
-Hashes documented in .sha256 files
-Integrity verified
-
-Chain of Custody:
-
-Collection timestamp recorded
-Collection method documented
-Handler documented
-Evidence secured and preserved
-
-
-Tools Used
-ToolPurposeVersionVelociraptorEvidence collection0.74.1WazuhAlert detectionLatestMetasploitAttack simulationLatestCrowdSecThreat responseLatestPowerShellEvidence collectionBuilt-inSHA256Hash verificationBuilt-in
-
-How to Use This Repository
-
-Review README files in each folder
-Check the REAL_EVIDENCE folder for collected evidence
-Review chain of custody documentation
-Examine incident reports and findings
-Reference screenshots for process documentation
-
-
-Real Data Only
-⚠️ Important: This repository contains REAL data only.
-
-✅ Real evidence from actual system (Windows Host)
-✅ Real timestamps (2025-11-21)
-✅ Real SHA256 hashes
-✅ Real collection methods
-❌ No fake data
-❌ No templates
-❌ No examples
-
-
-Files Description
-chain_of_custody.md
-
-Evidence log table
-Collection timeline
-Handler documentation
-Hash verification records
-
-velociraptor_setup.md
-
-Server installation steps
-Client deployment process
-Configuration details
-
-incident_report.md
-
-SANS incident report template
-Executive summary
-Incident timeline
-Findings and recommendations
-
-stakeholder_briefing.txt
-
-100-word briefing for non-technical managers
-Summary of incident
-Actions taken
-Business impact
-
-alert_detection.md
-
-Alert information
-MITRE ATT&CK techniques
-Detection timeline
-
-response_actions.md
-
-Response procedures
-System isolation
-IP blocking
-Verification steps
-
-forensic_findings.md
-
-Investigation findings
-Evidence analysis
-Conclusions
-
-
-Submission Details
-Due Date: Friday 4:30 PM
-What's Included:
-
-Real evidence files with SHA256 hashes
 Chain of custody documentation
-Incident response reports
-Stakeholder briefings
-Screenshots and timeline documentation
-Velociraptor setup guide
 
+End-to-end incident response
 
-Verification Checklist
-Before submission, verify:
+Technical and stakeholder reporting
 
- All evidence files are REAL (not examples)
- SHA256 hashes calculated and present
- Chain of custody documented
- Timestamps are accurate
- No fake or template data
- Screenshots show actual output
- Reports based on real findings
- All folders properly organized
- README files present in each folder
+This repository demonstrates practical SOC analyst skills using industry-standard tools and methods.
+
+📁 Repository Structure
+Week_2/
+├── 1_Alert_Management/
+│   └── Alert classification & prioritization
+│
+├── 2_Response_Documentation/
+│   └── IR templates, checklists, post-mortem docs
+│
+├── 3_Alert_Triage_Practice/
+│   └── Triage exercises + threat intel validation
+│
+├── 4_Evidence_Preservation/
+│   ├── REAL_EVIDENCE/
+│   │   ├── netstat_20251121.txt
+│   │   ├── network_connections.csv
+│   │   ├── process_list.csv
+│   │   ├── systeminfo.txt
+│   │   └── *.sha256
+│   ├── chain_of_custody.md
+│   └── velociraptor_setup.md
+│
+└── 5_Capstone_Project/
+    ├── incident_report.md
+    ├── stakeholder_briefing.txt
+    ├── alert_detection.md
+    └── screenshots/
+
+🛠 Tools Used
+Tool	Purpose
+Velociraptor	Forensic evidence collection
+Wazuh	Alert detection & triage
+Metasploit	Attack simulation
+CrowdSec	Automated threat blocking
+PowerShell	Windows evidence collection
+SHA256	Integrity verification
+🧪 Week 2 Tasks (Summary)
+Alert Management
+
+Classify alerts, assign priority, and map techniques to MITRE ATT&CK.
+
+Response Documentation
+
+Create incident response templates and documentation used during investigations.
+
+Alert Triage
+
+Analyze alerts, validate IOCs with VirusTotal/OTX, and distinguish true vs. false positives.
+
+Evidence Preservation
+
+Collect volatile data (netstat, processes, system info), calculate hashes, and maintain a complete chain of custody.
+
+Capstone Project
+
+A full incident lifecycle:
+
+Attack (Metasploit vsftpd exploit)
+
+Detection (Wazuh)
+
+Response (CrowdSec)
+
+Investigation & reporting
+
+🔍 Evidence Summary (Collected 2025-11-21)
+
+Real forensic evidence gathered from a Windows host:
+
+netstat_20251121.txt
+
+network_connections.csv
+
+process_list.csv
+
+systeminfo.txt
+
+Corresponding *.sha256 integrity hashes
+
+All evidence is preserved using Velociraptor, documented in chain_of_custody.md.
+
+📄 Deliverables
+
+This repository includes:
+
+Alert triage analysis
+
+Incident response templates
+
+IOC validation results
+
+Forensic findings
+
+Chain of custody documents
+
+Capstone incident report
+
+100-word stakeholder briefing
+
+Screenshots of key investigation steps
+
+Everything is based on real system artifacts and real timestamps.
+
+✔ Verification Checklist
+
+Before submission:
+
+Evidence files validated
+
+SHA256 hashes verified
+
+Chain of custody completed
+
+Screenshots from real investigation
+
+All reports based on actual findings
