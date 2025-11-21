@@ -4,37 +4,36 @@ This repository contains Week 2 coursework for SOC (Security Operations Center) 
 Focus: Alert management, incident response, and evidence preservation.
 
 Repository Structure
-cyart-soc-team/
-└── Week_2/
-    ├── 3_Alert_Triage_Practice/
-    │   ├── alert_triage_simulation.md
-    │   ├── threat_intel_validation.txt
-    │   └── README.md
-    │
-    ├── 4_Evidence_Preservation/
-    │   ├── REAL_EVIDENCE/
-    │   │   ├── netstat_20251121.txt
-    │   │   ├── network_connections.csv
-    │   │   ├── process_list.csv
-    │   │   ├── systeminfo.txt
-    │   │   ├── netstat.sha256
-    │   │   ├── network_connections.sha256
-    │   │   ├── process_list.sha256
-    │   │   └── systeminfo.sha256
-    │   ├── chain_of_custody.md
-    │   ├── velociraptor_setup.md
-    │   └── README.md
-    │
-    ├── 5_Capstone_Project/
-    │   ├── incident_report.md
-    │   ├── stakeholder_briefing.txt
-    │   ├── alert_detection.md
-    │   ├── response_actions.md
-    │   ├── forensic_findings.md
-    │   ├── screenshots/
-    │   └── README.md
-    │
-    └── README.md
+Week_2 Folder Contains:
+3_Alert_Triage_Practice/
+
+alert_triage_simulation.md
+threat_intel_validation.txt
+README.md
+
+4_Evidence_Preservation/
+
+chain_of_custody.md
+velociraptor_setup.md
+README.md
+REAL_EVIDENCE/
+
+netstat_20251121.txt
+network_connections.csv
+process_list.csv
+systeminfo.txt
+*.sha256 (hash files)
+
+5_Capstone_Project/
+
+incident_report.md
+stakeholder_briefing.txt
+alert_detection.md
+response_actions.md
+forensic_findings.md
+screenshots/
+README.md
+     
 
 Week 2 Tasks
 Task 3: Alert Triage Practice
