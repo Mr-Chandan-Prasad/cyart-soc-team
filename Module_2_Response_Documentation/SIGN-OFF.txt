@@ -1,0 +1,6 @@
+Total Incident Response Time 50 minutes
+Users Compromised 2
+Email Recipients 47
+Malware Detected 0
+Data Breach NO (Confirmed)
+Status INCIDENT RESOLVED - RECOMME
