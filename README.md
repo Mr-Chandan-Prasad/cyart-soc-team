@@ -25,32 +25,25 @@ This repository demonstrates practical SOC analyst skills using industry-standar
 
 📁 Week_2/
 ├── 📂 1_Alert_Management/
-│   └── 📄 Alert classification & prioritization
-│
+│ └── 📄 Alert classification & prioritization
 ├── 📂 2_Response_Documentation/
-│   └── 📄 IR templates, checklists, post-mortem docs
-│
+│ └── 📄 IR templates, checklists, post-mortem docs
 ├── 📂 3_Alert_Triage_Practice/
-│   └── 📄 Triage exercises + threat intel validation
-│
+│ └── 📄 Triage exercises + threat intel validation
 ├── 📂 4_Evidence_Preservation/
-│   ├── 📂 REAL_EVIDENCE/
-│   │   ├── 📝 netstat_20251121.txt
-│   │   ├── 📝 network_connections.csv
-│   │   ├── 📝 process_list.csv
-│   │   ├── 📝 systeminfo.txt
-│   │   └── 🔐 *.sha256
-│   │
-│   ├── 📄 chain_of_custody.md
-│   └── 📄 velociraptor_setup.md
-│
+│ ├── 📁 REAL_EVIDENCE/
+│ │ ├── 📝 netstat_20251121.txt
+│ │ ├── 📝 network_connections.csv
+│ │ ├── 📝 process_list.csv
+│ │ ├── 📝 systeminfo.txt
+│ │ └── 🔐 *.sha256
+│ ├── 📄 chain_of_custody.md
+│ └── 📄 velociraptor_setup.md
 └── 📂 5_Capstone_Project/
-    ├── 📄 incident_report.md
-    ├── 📄 stakeholder_briefing.txt
-    ├── 📄 alert_detection.md
-    └── 🖼️ screenshots/
-
-
+├── 📄 incident_report.md
+├── 📄 stakeholder_briefing.txt
+├── 📄 alert_detection.md
+└── 🖼️ screenshots/
 🛠 Tools Used
 Tool	Purpose
 Velociraptor	Forensic evidence collection
