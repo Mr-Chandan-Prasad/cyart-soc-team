@@ -1,0 +1,12 @@
+{"index":{"_index":"security-logs","_id":"1"}}
+{"@timestamp":"2025-11-26T12:00:00Z","event":{"id":4625},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login"}
+{"index":{"_index":"security-logs","_id":"2"}}
+{"@timestamp":"2025-11-26T12:00:15Z","event":{"id":4625},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login"}
+{"index":{"_index":"security-logs","_id":"3"}}
+{"@timestamp":"2025-11-26T12:00:30Z","event":{"id":4625},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login"}
+{"index":{"_index":"security-logs","_id":"4"}}
+{"@timestamp":"2025-11-26T12:01:00Z","event":{"id":4624},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Successful login"}
+{"index":{"_index":"security-logs","_id":"5"}}
+{"@timestamp":"2025-11-26T12:02:00Z","event":{"id":5156},"source":{"ip":"192.168.1.50"},"destination":{"ip":"8.8.8.8","port":53},"message":"DNS request"}
+{"index":{"_index":"security-logs","_id":"6"}}
+{"@timestamp":"2025-11-26T12:03:00Z","event":{"id":5156},"source":{"ip":"192.168.1.50"},"destination":{"ip":"185.220.101.50","port":443},"network":{"bytes":1500000},"message":"Large data transfer"}

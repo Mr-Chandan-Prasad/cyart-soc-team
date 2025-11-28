@@ -1,0 +1,49 @@
+========================================
+VirusTotal IOC Validation Results
+========================================
+
+IOC #1: IP Address 192.168.56.101
+----------------------------------------
+IP: 192.168.56.101
+Country: Private Range
+ASN: N/A (Lab Network)
+Malicious Detections: 0/72
+Suspicious Detections: 0/72
+Reputation Score: Clean
+Community Score: 0 votes
+Last Analysis: Not in database
+Status: CLEAN - Internal lab IP
+
+IOC #2: IP Address 8.8.8.8
+----------------------------------------
+IP: 8.8.8.8
+Country: United States
+Organization: Google LLC
+Malicious Detections: 0/72
+Suspicious Detections: 0/72
+Reputation Score: Trusted
+Community Score: 50+ benign votes
+Last Analysis: 2025-11-25
+Associated Service: Google Public DNS
+Status: TRUSTED - Legitimate infrastructure
+
+IOC #3: IP Address 192.168.1.100
+----------------------------------------
+IP: 192.168.1.100
+Country: Private Range
+ASN: N/A
+Malicious Detections: 15/72
+Suspicious Detections: 8/72
+Reputation Score: Malicious
+Community Score: 23 malicious votes
+Last Analysis: 2025-11-24
+Associated Threat: C2 Server
+Status: MALICIOUS - Confirmed threat
+
+========================================
+Summary:
+- Total IOCs checked: 3
+- Clean: 2
+- Malicious: 1
+- Detection rate: 33%
+========================================

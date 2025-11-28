@@ -1,0 +1,6 @@
+ip_address,country,organization,reputation,threat_score,threat_type,confidence,last_seen
+192.168.56.101,Private,Lab Network,Unknown,0,N/A,N/A,2025-11-27
+8.8.8.8,United States,Google LLC,Trusted,0,DNS Service,High,2025-11-25
+192.168.1.100,Private,Unknown,Malicious,85,C2 Server,High,2025-11-24
+10.0.0.50,Private,Unknown,Unknown,0,N/A,N/A,N/A
+172.16.0.1,Private,Lab Network,Clean,0,Lab Router,N/A,2025-11-27

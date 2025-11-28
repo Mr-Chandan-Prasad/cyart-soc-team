@@ -1,0 +1,6 @@
+{"@timestamp":"2025-11-26T12:00:00Z","event":{"id":4625,"category":"authentication"},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login attempt"}
+{"@timestamp":"2025-11-26T12:00:15Z","event":{"id":4625,"category":"authentication"},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login attempt"}
+{"@timestamp":"2025-11-26T12:00:30Z","event":{"id":4625,"category":"authentication"},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Failed login attempt"}
+{"@timestamp":"2025-11-26T12:01:00Z","event":{"id":4624,"category":"authentication"},"source":{"ip":"192.168.1.100"},"destination":{"ip":"192.168.1.50"},"user":{"name":"admin"},"message":"Successful login"}
+{"@timestamp":"2025-11-26T12:02:00Z","event":{"id":5156,"category":"network"},"source":{"ip":"192.168.1.50"},"destination":{"ip":"8.8.8.8","port":53},"message":"Suspicious DNS request"}
+{"@timestamp":"2025-11-26T12:03:00Z","event":{"id":5156,"category":"network"},"source":{"ip":"192.168.1.50"},"destination":{"ip":"185.220.101.50","port":443},"network":{"bytes":1500000},"message":"Large outbound data transfer"}

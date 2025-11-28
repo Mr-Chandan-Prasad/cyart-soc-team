@@ -1,0 +1,7 @@
+timestamp,user,source_ip,event_type,technique,status,finding
+2025-11-27 12:05:00,invalid_user,192.168.56.101,Failed SSH Login,T1078,Flagged,Suspicious username
+2025-11-27 12:05:03,admin,192.168.56.101,Failed SSH Login,T1078,Flagged,Common admin username
+2025-11-27 12:05:06,root,192.168.56.101,Failed SSH Login,T1078,Flagged,Root account targeted
+2025-11-27 12:05:09,test,192.168.56.101,Failed SSH Login,T1078,Flagged,Test account targeted
+2025-11-27 12:05:12,user,192.168.56.101,Failed SSH Login,T1078,Flagged,Generic username
+2025-11-27 12:05:15,kali,192.168.56.101,Sudo Command,T1548.003,Monitor,Privilege escalation

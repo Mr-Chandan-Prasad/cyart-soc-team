@@ -1,0 +1,53 @@
+{
+  "alerts": [
+    {
+      "alert_id": "001",
+      "timestamp": "2025-11-27T12:05:00Z",
+      "source_ip": "192.168.56.101",
+      "destination_ip": "8.8.8.8",
+      "event_type": "DNS_QUERY",
+      "threat_intelligence": {
+        "source": "AlienVault OTX",
+        "reputation": "Clean",
+        "threat_score": 0,
+        "organization": "Google LLC",
+        "service": "Google Public DNS",
+        "country": "United States"
+      },
+      "rule_id": 5402,
+      "severity": "Low"
+    },
+    {
+      "alert_id": "002",
+      "timestamp": "2025-11-27T12:10:00Z",
+      "source_ip": "192.168.56.101",
+      "destination_ip": "192.168.1.100",
+      "event_type": "OUTBOUND_CONNECTION",
+      "threat_intelligence": {
+        "source": "AlienVault OTX",
+        "reputation": "Malicious",
+        "threat_score": 85,
+        "threat_type": "C2 Server",
+        "last_seen": "2025-11-25",
+        "associated_malware": "Trojan.Generic"
+      },
+      "rule_id": 5403,
+      "severity": "Critical"
+    },
+    {
+      "alert_id": "003",
+      "timestamp": "2025-11-27T12:15:00Z",
+      "source_ip": "192.168.56.101",
+      "destination_ip": "10.0.0.50",
+      "event_type": "HTTP_REQUEST",
+      "threat_intelligence": {
+        "source": "AlienVault OTX",
+        "reputation": "Unknown",
+        "threat_score": 0,
+        "notes": "Not found in threat feeds"
+      },
+      "rule_id": 5404,
+      "severity": "Medium"
+    }
+  ]
+}

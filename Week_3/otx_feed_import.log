@@ -1,0 +1,12 @@
+2025-11-27 12:00:00 INFO: Starting OTX feed import
+2025-11-27 12:00:01 INFO: Connecting to AlienVault OTX API
+2025-11-27 12:00:02 INFO: Feed URL: https://otx.alienvault.com/api/v1/pulses/subscribed
+2025-11-27 12:00:05 INFO: Downloaded 1,245 IOCs from OTX feed
+2025-11-27 12:00:06 INFO: Processing malicious IPs...
+2025-11-27 12:00:07 INFO: Found 345 malicious IPs
+2025-11-27 12:00:08 INFO: Found 89 malicious domains
+2025-11-27 12:00:09 INFO: Found 156 malicious file hashes
+2025-11-27 12:00:10 INFO: Importing IOCs into Wazuh database
+2025-11-27 12:00:15 INFO: OTX feed import completed successfully
+2025-11-27 12:00:15 INFO: Total IOCs in database: 590
+2025-11-27 12:00:16 INFO: Next scheduled import: 2025-11-28 12:00:00

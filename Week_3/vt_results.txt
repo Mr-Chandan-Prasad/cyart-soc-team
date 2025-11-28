@@ -1,0 +1,8 @@
+IP: 192.168.56.101
+Result: Clean (0 detections)
+
+IP: 8.8.8.8
+Result: Clean (Google DNS)
+
+IP: 192.168.1.100
+Result: Malicious (15 detections)

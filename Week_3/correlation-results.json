@@ -1,0 +1,168 @@
+{
+  "took" : 15,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 6,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:00:00Z",
+          "event" : {
+            "id" : 4625
+          },
+          "source" : {
+            "ip" : "192.168.1.100"
+          },
+          "destination" : {
+            "ip" : "192.168.1.50"
+          },
+          "user" : {
+            "name" : "admin"
+          },
+          "message" : "Failed login"
+        },
+        "sort" : [
+          1764158400000
+        ]
+      },
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:00:15Z",
+          "event" : {
+            "id" : 4625
+          },
+          "source" : {
+            "ip" : "192.168.1.100"
+          },
+          "destination" : {
+            "ip" : "192.168.1.50"
+          },
+          "user" : {
+            "name" : "admin"
+          },
+          "message" : "Failed login"
+        },
+        "sort" : [
+          1764158415000
+        ]
+      },
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:00:30Z",
+          "event" : {
+            "id" : 4625
+          },
+          "source" : {
+            "ip" : "192.168.1.100"
+          },
+          "destination" : {
+            "ip" : "192.168.1.50"
+          },
+          "user" : {
+            "name" : "admin"
+          },
+          "message" : "Failed login"
+        },
+        "sort" : [
+          1764158430000
+        ]
+      },
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:01:00Z",
+          "event" : {
+            "id" : 4624
+          },
+          "source" : {
+            "ip" : "192.168.1.100"
+          },
+          "destination" : {
+            "ip" : "192.168.1.50"
+          },
+          "user" : {
+            "name" : "admin"
+          },
+          "message" : "Successful login"
+        },
+        "sort" : [
+          1764158460000
+        ]
+      },
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:02:00Z",
+          "event" : {
+            "id" : 5156
+          },
+          "source" : {
+            "ip" : "192.168.1.50"
+          },
+          "destination" : {
+            "ip" : "8.8.8.8",
+            "port" : 53
+          },
+          "message" : "DNS request"
+        },
+        "sort" : [
+          1764158520000
+        ]
+      },
+      {
+        "_index" : "security-logs",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : null,
+        "_source" : {
+          "@timestamp" : "2025-11-26T12:03:00Z",
+          "event" : {
+            "id" : 5156
+          },
+          "source" : {
+            "ip" : "192.168.1.50"
+          },
+          "destination" : {
+            "ip" : "185.220.101.50",
+            "port" : 443
+          },
+          "network" : {
+            "bytes" : 1500000
+          },
+          "message" : "Large data transfer"
+        },
+        "sort" : [
+          1764158580000
+        ]
+      }
+    ]
+  }
+}
